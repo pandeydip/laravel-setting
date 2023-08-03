@@ -6,11 +6,11 @@
   "autoload": {
     "psr-4": {
       "Pandeydip\\LaravelSettings\\": "src/"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   },
-  "files": [
-    "src/helpers.php"
-  ],
   "extra": {
     "laravel": {
       "providers": [
