@@ -9,7 +9,7 @@
     }
   },
   "files": [
-    "helpers.php"
+    "src/helpers.php"
   ],
   "extra": {
     "laravel": {
