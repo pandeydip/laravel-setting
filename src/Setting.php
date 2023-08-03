@@ -12,5 +12,5 @@ class Setting extends Model
 {
     protected $fillable = ['key', 'value'];
     protected $primaryKey = 'key';
-    public $incrementing = false;
+    public $timestamps = false;
 }
