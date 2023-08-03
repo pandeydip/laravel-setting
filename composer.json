@@ -1,32 +1,35 @@
 {
-    "name": "pandeydip/laravel-settings",
-    "description": "Key Value based Setting package for laravel",
-    "type": "package",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Pandeydip\\LaravelSettings\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Pandeydip\\LaravelSettings\\SettingServiceProvider"
-            ],
-            "aliases": {
-                "Setting": "Pandeydip\\LaravelSettings\\Facades\\Setting"
-            }
-        }
-    },
-    "authors": [
-        {
-            "name": "Deepak Pandey",
-            "email": "er.pandeydip@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "illuminate/support": "10.x-dev",
-        "illuminate/database": "10.x-dev"
+  "name": "pandeydip/laravel-settings",
+  "description": "Key Value based Setting package for laravel",
+  "type": "package",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pandeydip\\LaravelSettings\\": "src/"
     }
+  },
+  "files": [
+    "helpers.php"
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pandeydip\\LaravelSettings\\SettingServiceProvider"
+      ],
+      "aliases": {
+        "Setting": "Pandeydip\\LaravelSettings\\Facades\\Setting"
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Deepak Pandey",
+      "email": "er.pandeydip@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "10.x-dev",
+    "illuminate/database": "10.x-dev"
+  }
 }
